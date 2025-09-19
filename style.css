@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+
+:root{
+
+  /* Color */
+  --Grey-900:hsl(0,0,8);
+  --Grey-800:hsl(0,0,12);
+  --Grey-700:hsl(0,0,20);
+  --green:hsl(75, 94, 57);
+  --white:hsl(0,0,100);
+
+  /* Typography */
+--ff-base:"Inter", sans-serif;
+
+/* Text Preset */
+--fs-1: 1.5rem; /* 24px – Display/Name */
+
+--fs-2: 0.875rem; /* 14px – Body */
+
+--fs-3: 0.875rem; /* 14px – Label (fw-600) */
+
+--lh-default: 1.5;
+
+--ls-default: 0;
+
+/* Font weights */
+--fw-400:400;
+--fw-600:600;
+--fw-700:700;
+
+/* Spacing */
+--space-500:2.5rem;
+--space-300:1.5rem;
+--space-200:1rem;
+--space-150:0.75rem;
+--space-100:0.5rem;
+--space-50:0.25rem;
+
+
+/* Radius & Shadow */
+--radius-150:0.75rem;
+--radius-100:0.5rem;
+--shadow-50:0 4px 4px rgba(0,0,0,.25);
+
+/* Component*/
+--bg-color:var(var(--Grey-900));
+--bg-card:var(var(--Grey-800));
+--text-primary:var(var(--white));
+--text-secondary:var(var(--green));
+--brand:var(var(--green));
+--brand-contrast:var(var(--Grey-700));
+
+}
+
+
