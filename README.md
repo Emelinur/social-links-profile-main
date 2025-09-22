@@ -16,10 +16,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -63,9 +61,9 @@ How to create fluid spacing and font sizes with `clamp()`:
 ---
 ### Useful resources
 
-MDN – clamp()
+ [MDN – clamp()](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp),
 
-W3Schools – CSS Units
+[W3Schools–CSS functions](https://www.w3schools.com/cssref/css_functions.php)
 
 Frontend Mentor challenges
 
@@ -74,5 +72,5 @@ AI tools for explanation and refactoring support
 ---
 
 ## Author
-- Frontend Mentor - [@Emelinur](https://www.frontendmentor.io/profile/yourusername)
-- Gitgub - [@Emelinur](https://github.com/Emelinur)
+- Frontend Mentor - [@Emelinur](https://www.frontendmentor.io/profile/Emelinur)
+- Github - [@Emelinur](https://github.com/Emelinur)
