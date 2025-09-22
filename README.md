@@ -52,13 +52,15 @@ Users should be able to:
 - Mobile-first workflow  
 - Responsive sizing with `clamp()`, `calc()`, `vw` (no `@media` needed)  
 
+---
 ### What I learned
 
 How to create fluid spacing and font sizes with `clamp()`:
 
 ```css
 --space-500: clamp(1.5rem, 1.5rem + 1.5vw, 2.5rem); /* 24 → 40px */
-
+```
+---
 ### Useful resources
 
 MDN – clamp()
@@ -68,6 +70,8 @@ W3Schools – CSS Units
 Frontend Mentor challenges
 
 AI tools for explanation and refactoring support
+
+---
 
 ## Author
 - Frontend Mentor - [@Emelinur](https://www.frontendmentor.io/profile/yourusername)
