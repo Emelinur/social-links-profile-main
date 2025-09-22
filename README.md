@@ -3,9 +3,11 @@
 ![Design preview for the Social links profile coding challenge](./preview.jpg)
 
 ## Welcome! 👋
-This is a solution to the Social links profile challenge on Frontend Mentor
-.
+
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).  
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -19,74 +21,41 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-#Overview
-The challenge
+---
+
+## Overview
+
+### The challenge
 
 Users should be able to:
 
-See hover and focus states for all interactive elements on the page
+- See hover and focus states for all interactive elements on the page
 
-#[Screenshot](./design/Screenshot.png)
+### Screenshot
 
- [Add live site URL here](https://emelinur.github.io/social-links-profile-main/)
+![](./design/Screenshot.png)
 
-#My process
-Built with
+### Links
 
-Semantic HTML5 markup
+- Live Site URL: [Add live site URL here](https://emelinur.github.io/social-links-profile-main/)
 
-CSS Custom Properties (design tokens for colors, spacing, typography)
+---
 
-HSL color system
+## My process
 
-Flexbox
+### Built with
 
-Mobile-first workflow
+- Semantic HTML5 markup  
+- CSS Custom Properties (design tokens for colors, spacing, typography)  
+- HSL color system  
+- Flexbox  
+- Mobile-first workflow  
+- Responsive sizing with `clamp()`, `calc()`, `vw` (no `@media` needed)  
 
-Responsive sizing with clamp(), calc(), vw (no @media needed)
+### What I learned
 
-What I learned
+How to create fluid spacing and font sizes with `clamp()`:
 
-How to create fluid spacing and font sizes with clamp():
-
+```css
 --space-500: clamp(1.5rem, 1.5rem + 1.5vw, 2.5rem); /* 24 → 40px */
 
-
-How 1vw works: 1vw = viewport width / 100.
-
-How to calculate vw-based scaling between min–max breakpoints.
-
-Why HSL values need % (e.g. hsl(0 0% 8%) instead of hsl(0,0,8)).
-
-How to replace simple @media queries with fluid units:
-
-.card { width: min(100%, 24rem); }
-
-Continued development
-
-Improve accessibility with :focus-visible for keyboard navigation.
-
-Experiment with container queries for even more component-based responsive design.
-
-Explore transitions and animations for smoother UI feedback.
-
-Useful resources
-
-MDN – clamp()
-
-W3Schools – CSS Units
-
-Frontend Mentor
- challenges
-
-AI tools for explanation and refactoring support
-
-Author
-
-Frontend Mentor – @yourusername
-
-GitHub – yourusername
-
-LinkedIn – [your profile link]
-
-✨ That’s it!
