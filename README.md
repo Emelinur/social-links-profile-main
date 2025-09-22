@@ -53,20 +53,25 @@ Users should be able to:
 ---
 ### What I learned
 
-How to create fluid spacing and font sizes with `clamp()`:
+- How to create fluid spacing and font sizes with `clamp()`:
 
 ```css
---space-500: clamp(1.5rem, 1.5rem + 1.5vw, 2.5rem); /* 24 → 40px */
---@media (prefers-reduced-motion: reduce) {
+:root {
+  --space-500: clamp(1.5rem, 1.5rem + 1.5vw, 2.5rem); /* 24 → 40px */
+}
+
+- How to make animations accessible using prefers-reduced-motion:
+
+@media (prefers-reduced-motion: reduce) {
   .button {
-    transition: none;
-  } 
+    transition: none; /* Disable transitions for users who prefer reduced motion */
+  }
 }
 ```
 ---
 ### Useful resources
 
- [MDN – clamp()](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp),
+ [MDN – clamp()](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp)
 
 [W3Schools–CSS functions](https://www.w3schools.com/cssref/css_functions.php)
 
