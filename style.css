@@ -131,3 +131,8 @@ p {
   background-color: var(--brand);
   color: black;
 }
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition: none; /* animasyonu kapat */
+  }
+}
