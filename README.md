@@ -19,24 +19,18 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-Overview
+#Overview
 The challenge
 
 Users should be able to:
 
 See hover and focus states for all interactive elements on the page
 
-Screenshot
+#[Screenshot](./design/Screenshot.png)
 
-Add a screenshot of your solution here.
+ [Add live site URL here](https://emelinur.github.io/social-links-profile-main/)
 
-Links
-
-Solution URL: Add solution URL here
-
-Live Site URL: Add live site URL here
-
-My process
+#My process
 Built with
 
 Semantic HTML5 markup
@@ -49,7 +43,7 @@ Flexbox
 
 Mobile-first workflow
 
-Responsive sizing with clamp(), min(), max(), vw (no @media needed)
+Responsive sizing with clamp(), calc(), vw (no @media needed)
 
 What I learned
 
