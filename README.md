@@ -59,9 +59,9 @@ Users should be able to:
 :root {
   --space-500: clamp(1.5rem, 1.5rem + 1.5vw, 2.5rem); /* 24 → 40px */
 }
-
+```
 - How to make animations accessible using prefers-reduced-motion:
-
+```css
 @media (prefers-reduced-motion: reduce) {
   .button {
     transition: none; /* Disable transitions for users who prefer reduced motion */
