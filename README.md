@@ -48,8 +48,8 @@ Users should be able to:
 - HSL color system  
 - Flexbox  
 - Mobile-first workflow  
-- Responsive sizing with `clamp()`, `calc()`, `vw` (no `@media` needed)  
-
+- Responsive sizing with `clamp()`, `calc()`, `vw` (no `@media` needed) 
+- @media (prefers-reduced-motion: reduce)
 ---
 ### What I learned
 
@@ -57,6 +57,11 @@ How to create fluid spacing and font sizes with `clamp()`:
 
 ```css
 --space-500: clamp(1.5rem, 1.5rem + 1.5vw, 2.5rem); /* 24 → 40px */
+--@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition: none;
+  } 
+}
 ```
 ---
 ### Useful resources

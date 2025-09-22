@@ -133,6 +133,6 @@ p {
 }
 @media (prefers-reduced-motion: reduce) {
   .button {
-    transition: none; /* animasyonu kapat */
+    transition: none;
   }
 }
