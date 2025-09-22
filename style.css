@@ -93,7 +93,7 @@ h1 {
   letter-spacing: var(--ls-default);
   color: var(--text-primary);
 }
-h3 {
+h2 {
   margin: 0;
   padding: 0;
   color: var(--text-secondary);
