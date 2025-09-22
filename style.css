@@ -45,7 +45,6 @@
   --text-primary: var(--white);
   --text-secondary: var(--green);
   --brand: var(--green);
-  --brand-contrast: var(--Grey-700);
 }
 * {
   box-sizing: border-box;
@@ -54,7 +53,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--Grey-900);
+  background-color: var(--bg-color);
   font-family: var(--ff-base);
   display: flex;
   flex-direction: column;
@@ -62,37 +61,73 @@ body {
   align-items: center;
   height: 100vh;
 }
-main{
+main {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  gap: var(--space-500);
 }
-.card{
-  width: 24rem;
+.card {
+width: clamp(327px, 87.2vw, 384px);
   height: 38.1875rem;
-  background-color: var(--Grey-800);
-  padding: var( --space-500) ;
+  background-color: var(--bg-card);
+  padding: var(--space-500);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  border-radius: var(--radius-150);
 }
 
-.profile-pic{
+.profile-pic {
   width: 5.5rem;
   border-radius: 100%;
 }
-h1{
-margin: 0;
-padding: 0;
-color: var(--white);
-}
-h3{
+h1 {
   margin: 0;
-padding: 0;
-color: var(--green);
+  padding: 0;
+  font-size: var(--fs-1);
+  font-weight: var(--fw-700);
+  line-height: var(--lh-default);
+  letter-spacing: var(--ls-default);
+  color: var(--text-primary);
 }
-p{
-  color: var(--white);
+h3 {
+  margin: 0;
+  padding: 0;
+  color: var(--text-secondary);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-600);
+  line-height: var(--lh-default);
+  letter-spacing: var(--ls-default);
+  text-align: center;
+}
+p {
+  margin: 0;
+  padding: 0;
+  color: var(--text-primary);
+  font-size: var(--fs-3);
+  font-weight: var(--fw-400);
+  line-height: var(--lh-default);
+  letter-spacing: var(--ls-default);
+}
+.button {
+  width: 100%;
+  background-color: var(--Grey-700);
+  text-align: center;
+  font-size: var(--fs-2);
+  font-weight: var(--fw-600);
+  line-height: var(--lh-default);
+  padding: var(--space-150);
+  color: var(--text-primary);
+  border: 1px solid var(--Grey-700);
+  border-radius: var(--radius-100);
+  transition: background-color 2s;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--brand);
+  color: black;
 }
