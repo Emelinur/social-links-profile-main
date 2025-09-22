@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://emelinur.github.io/social-links-profile-main/)
+- Live Site URL: [Social links profile](https://emelinur.github.io/social-links-profile-main/)
 
 ---
 
@@ -59,3 +59,16 @@ How to create fluid spacing and font sizes with `clamp()`:
 ```css
 --space-500: clamp(1.5rem, 1.5rem + 1.5vw, 2.5rem); /* 24 → 40px */
 
+### Useful resources
+
+MDN – clamp()
+
+W3Schools – CSS Units
+
+Frontend Mentor challenges
+
+AI tools for explanation and refactoring support
+
+## Author
+- Frontend Mentor - [@Emelinur](https://www.frontendmentor.io/profile/yourusername)
+- Gitgub - [@Emelinur](https://github.com/Emelinur)
